@@ -29,7 +29,7 @@ class DevelopConfig(Config):
         "ENGINE": "mysql",
         "DRIVER":"pymysql",
         "USER":"root",
-        "PASSWORD":"111223",
+        "PASSWORD":"33",
         "HOST":"localhost",
         "PORT":"3306",
         "NAME":"pythonflask"
@@ -43,7 +43,7 @@ class TestingConfig(Config):
         "ENGINE": "mysql",
         "DRIVER":"pymysql",
         "USER":"root",
-        "PASSWORD":"111223",
+        "PASSWORD":"33",
         "HOST":"localhost",
         "PORT":"3306",
         "NAME":"pythonflask"
@@ -58,7 +58,7 @@ class StagingConfig(Config):
         "ENGINE": "mysql",
         "DRIVER":"pymysql",
         "USER":"root",
-        "PASSWORD":"111223",
+        "PASSWORD":"33",
         "HOST":"localhost",
         "PORT":"3306",
         "NAME":"pythonflask"
@@ -73,7 +73,7 @@ class ProductConfig(Config):
         "ENGINE": "mysql",
         "DRIVER":"pymysql",
         "USER":"root",
-        "PASSWORD":"111223",
+        "PASSWORD":"33",
         "HOST":"localhost",
         "PORT":"3306",
         "NAME":"pythonflask"
